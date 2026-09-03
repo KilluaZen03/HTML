@@ -1,2 +1,17 @@
 p{color: red; font-weight: bold;}
 #miparrafo{color: blue; font-size: 20px;}
+body {
+  background-color: var(--gris-fondo);
+  color: var(--texto);
+  font-family: "Georgia", "Times New Roman", serif;
+}
+img {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--azul-tinta);
+}
+intro-text {
+  color: var(--azul-tinta);
+  font-weight: 600;
+  font-size: 1.15px;
+}
